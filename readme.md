@@ -2,7 +2,7 @@
 
 ![HAR Logo](https://i.imgur.com/NcfmaGX.png)
 
-This repository contains the minimum required to spawn an alien race pawn in Development Mode in RimwWorld.
+This repository contains the minimum required to spawn an alien race pawn in Development Mode in RimWorld.
 
 Please check out the [HAR Framework Wiki](https://github.com/erdelf/AlienRaces/wiki) for more information!
 
