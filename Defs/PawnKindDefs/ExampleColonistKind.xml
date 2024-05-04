@@ -7,14 +7,14 @@
 
 		<!-- The defName of your Def must be unique across all mods. -->
 		<!-- It's recommended you prefix this with your race name to avoid collisions. -->
-		<defName>ExampleAlienColonist</defName>
+		<defName>Example_AlienColonist</defName>
 		
 		<!-- This is the display name for this PawnKind. -->
 		<!-- For non-player pawns, this is the "trader", "guard", or "civilian" that is shown on their stat card. -->
 		<label>colonist</label>
 
 		<!-- The defName of your race goes here. -->
-		<race>ExampleAlien</race>
+		<race>Example_Alien</race>
 		
 		<!-- This is the defName of the FactionDef that this PawnKind belongs to. -->
 		<!-- "PlayerColony" is the vanilla player faction used for Crashlanded, Rich Explorer, and Naked Brutality. -->

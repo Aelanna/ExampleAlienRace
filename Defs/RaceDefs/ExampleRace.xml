@@ -3,12 +3,12 @@
 
 	<!-- This is the Def that represents your race. -->
 	<!-- You can inherit from either "HumanRace" or "BasePawn" depending on what is easier to override. -->
-	<AlienRace.ThingDef_AlienRace ParentName="HumanRace">
+	<AlienRace.ThingDef_AlienRace ParentName="Human">
 
 		<!-- The defName of your Def must be unique across all mods. -->
 		<!-- It's recommended that you prefix this with your name or your mod's name to avoid collisions. -->
 		<!-- Examples include "Aelanna_Heruan" or "ARR_Miqote" -->
-		<defName>ExampleAlien</defName>
+		<defName>Example_Alien</defName>
 		
 		<!-- This is the display name of your race that is shown in-game. -->
 		<!-- It actually does not need to be unique. -->
