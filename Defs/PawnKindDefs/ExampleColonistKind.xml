@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- This is a spawn preset that you can select in Development Mode to spawn your race. -->
-	<!-- This example inherits from the abstract base for player starting colonists. -->
-	<PawnKindDef ParentName="BasePlayerPawnKind">
+    <!-- This is a spawn preset that you can select in Development Mode to spawn your race. -->
+    <!-- This example inherits from the abstract base for player starting colonists. -->
+    <PawnKindDef ParentName="BasePlayerPawnKind">
 
-		<!-- The defName of your Def must be unique across all mods. -->
-		<!-- It's recommended you prefix this with your race name to avoid collisions. -->
-		<defName>Example_AlienColonist</defName>
-		
-		<!-- This is the display name for this PawnKind. -->
-		<!-- For non-player pawns, this is the "trader", "guard", or "civilian" that is shown on their stat card. -->
-		<label>colonist</label>
+        <!-- The defName of your Def must be unique across all mods. -->
+        <!-- It's recommended you prefix this with your race name to avoid collisions. -->
+        <defName>Example_AlienColonist</defName>
 
-		<!-- The defName of your race goes here. -->
-		<race>Example_Alien</race>
-		
-		<!-- This is the defName of the FactionDef that this PawnKind belongs to. -->
-		<!-- "PlayerColony" is the vanilla player faction used for Crashlanded, Rich Explorer, and Naked Brutality. -->
-		<defaultFactionType>PlayerColony</defaultFactionType>
-		
-		<!-- This is a required field. 13~21 is the default value for Crashlanded player colonists. -->
-		<initialResistanceRange>13~21</initialResistanceRange>
-	</PawnKindDef>
+        <!-- This is the display name for this PawnKind. -->
+        <!-- For non-player pawns, this is the "trader", "guard", or "civilian" that is shown on their stat card. -->
+        <label>colonist</label>
+
+        <!-- The defName of your race goes here. -->
+        <race>Example_Alien</race>
+
+        <!-- This is the defName of the FactionDef that this PawnKind belongs to. -->
+        <!-- "PlayerColony" is the vanilla player faction used for Crashlanded, Rich Explorer, and Naked Brutality. -->
+        <defaultFactionType>PlayerColony</defaultFactionType>
+
+        <!-- This is a required field. 13~21 is the default value for Crashlanded player colonists. -->
+        <initialResistanceRange>13~21</initialResistanceRange>
+    </PawnKindDef>
 
 </Defs>

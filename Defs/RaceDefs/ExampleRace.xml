@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- This is the Def that represents your race. -->
-	<!-- You can inherit from either "HumanRace" or "BasePawn" depending on what is easier to override. -->
-	<AlienRace.ThingDef_AlienRace ParentName="Human">
+    <!-- This is the Def that represents your race. -->
+    <!-- You can inherit from either "HumanRace" or "BasePawn" depending on what is easier to override. -->
+    <AlienRace.ThingDef_AlienRace ParentName="Human">
 
-		<!-- The defName of your Def must be unique across all mods. -->
-		<!-- It's recommended that you prefix this with your name or your mod's name to avoid collisions. -->
-		<!-- Examples include "Aelanna_Heruan" or "ARR_Miqote" -->
-		<defName>Example_Alien</defName>
-		
-		<!-- This is the display name of your race that is shown in-game. -->
-		<!-- It actually does not need to be unique. -->
-		<label>example alien</label>
+        <!-- The defName of your Def must be unique across all mods. -->
+        <!-- It's recommended that you prefix this with your name or your mod's name to avoid collisions. -->
+        <!-- Examples include "Aelanna_Heruan" or "ARR_Miqote" -->
+        <defName>Example_Alien</defName>
 
-		<!-- This is the description text that is shown when someone inspects a member of your race. -->
-		<description>This is an example alien race that was created for the wiki tutorial.</description>
-		
-		<!-- The following are all parts of the Humanoid Alien Race framework. -->
-		<!-- Please read the HAR Wiki at https://github.com/erdelf/AlienRaces/wiki to see what you can add here! -->
-		<alienRace>
-			<generalSettings></generalSettings>
-			<graphicPaths></graphicPaths>
-			<styleSettings></styleSettings>
-			<thoughtSettings></thoughtSettings>
-			<relationSettings></relationSettings>
-			<raceRestriction></raceRestriction>
-			<compatibility></compatibility>
-		</alienRace>
-	</AlienRace.ThingDef_AlienRace>
+        <!-- This is the display name of your race that is shown in-game. -->
+        <!-- It actually does not need to be unique. -->
+        <label>example alien</label>
+
+        <!-- This is the description text that is shown when someone inspects a member of your race. -->
+        <description>This is an example alien race that was created for the wiki tutorial.</description>
+
+        <!-- The following are all parts of the Humanoid Alien Race framework. -->
+        <!-- Please read the HAR Wiki at https://github.com/erdelf/AlienRaces/wiki to see what you can add here! -->
+        <alienRace>
+            <generalSettings></generalSettings>
+            <graphicPaths></graphicPaths>
+            <styleSettings></styleSettings>
+            <thoughtSettings></thoughtSettings>
+            <relationSettings></relationSettings>
+            <raceRestriction></raceRestriction>
+            <compatibility></compatibility>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
 
 </Defs>
